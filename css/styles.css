@@ -11,3 +11,11 @@
   text-decoration: none;
   line-height: 23px
 }
+.site-navigation li {
+  display: inline-block;
+}
+
+.site-navigation a li:not(:last child){
+  margin-right: 60px;
+
+}
