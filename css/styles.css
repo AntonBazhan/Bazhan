@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .site-navigation {
   
   font-size: 19px;
@@ -15,7 +25,17 @@
   display: inline-block;
 }
 
-.site-navigation a li:not(:last child){
+.site-navigation li:not(:last-child) {
   margin-right: 60px;
+}
 
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #8ccef8
+} 
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+  background-color: teal
 }
