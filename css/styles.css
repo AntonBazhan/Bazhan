@@ -9,8 +9,7 @@ html {
 }
 
 .site-navigation {
-  
-  font-size: 19px;
+  font-size: 11px;
   list-style: none;
   
 }
@@ -20,13 +19,17 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 23px
+ 
 }
 .site-navigation li {
   display: inline-block;
+ 
 }
 
-.site-navigation li:not(:last-child) {
-  margin-right: 60px;
+.site-navigation{
+width: 575px;
+margin: 0 auto;
+background-color: teal
 }
 
 .site-navigation a:hover,
@@ -34,8 +37,27 @@ html {
   color: #8ccef8
 } 
 
+
 .container{
   width: 900px;
   margin: 0 auto;
   background-color: teal
 }
+.download-button{
+  border: none;
+  margin: 0;
+  padding: 22px 34px;
+ 
+}
+.download-button{
+
+font-size: 17px;
+color: #626262;
+text-align: center;
+cursor: pointer;
+display: inline-block;
+width: 164px;
+margin: 0 auto;
+}
+
+
